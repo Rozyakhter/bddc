@@ -59,16 +59,16 @@ public class Logincode1 {
 	}
 
 	@Given("^User has to put his correct (.*)$")
-	public void i_have_to_put_a_correct_UserId(String Id) throws Exception {
-
+	public void user_has_to_put_his_correct_Id(String Id) throws Exception {
 		driver.findElement(loginIdXpath).sendKeys(Id);
 		Thread.sleep(1000);
 
 	}
 
 	@When("^User has to put her correct (.*)$")
-	public void i_have_to_put_a_correct_UserPassword(String password) throws Exception {
+	public void user_has_to_put_her_correct_password(String password) throws InterruptedException {
 		driver.findElement(logInpsXpath).sendKeys(password);
 		Thread.sleep(1000);
+
 	}
 }

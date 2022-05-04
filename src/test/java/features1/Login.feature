@@ -19,5 +19,6 @@ Feature: I want to login orangeHrm page
     Then close the browser
 
     Examples: 
-      | Id    |  | password |
-      | Admin |  | admin123 |
+      | Id      |  | password   |
+      | Admin   |  | admin123   |
+      | Buffalo |  | Nexxvaliqa |
